@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cy2am0cie25q2"]
+
+[ext_resource type="Script" uid="uid://5m45citrn7xk" path="res://addons/Counter/counter.gd" id="1_5wupd"]
+[ext_resource type="Texture2D" uid="uid://cp01wqppy8a4g" path="res://Font/26x32.png" id="2_dfxaj"]
+
+[node name="Counter" type="Node2D"]
+script = ExtResource("1_5wupd")
+value = 98
+digit_sprite_sheet = ExtResource("2_dfxaj")
+digit_width = 26
+digit_height = 32
